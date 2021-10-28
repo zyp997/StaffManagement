@@ -1,0 +1,11 @@
+spring:
+  #清除 thymeleaf 缓存
+  thymeleaf:
+    cache: false
+  #配置页面国际化
+  messages:
+    basename: i18n.login
+  #修改日期格式
+  mvc:
+    format:
+      date: yyyy-MM-dd HH:mm:ss
